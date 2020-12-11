@@ -117,11 +117,57 @@ void keyscan (){
     if (row_4 == 0)
     key_nope;
     }
+    // keyscan col
+    wait(0.1);
+    setcol2 ();
+    wait (0.2);
+    if (row1 == 0)
+    key_2();
+    if (row2 == 0 )
+    key_5 ();
+    if (row3 == 0)
+    key_8 ();
+    if (row4 == 0)
+    key_0 ();
+    
+    wait (0.1);
+    setcol3 ();
+    wait (0.2);
+    if (row1 == 0)
+    key_3();
+    if (row2 == 0 )
+    key_6 ();
+    if (row3 == 0)
+    key_9 ();
+    if (row4 == 0)
+    key_# ();
+    
+    wait(0.1);
+    setcol4();
+    wait (0.2);
+     if (row1 == 0)
+    key_A();
+    if (row2 == 0 )
+    key_B ();
+    if (row3 == 0)
+    key_C ();
+    if (row4 == 0)
+    key_d ();
+    
+    
+   
+    
+
+    
 int main()
 {
+  while (1) {
+    setvdd();
+    keyscan(); // run keyscan function
+    wait(0.2);
+    }  
     
     
     
     
-    
-    }
+}
