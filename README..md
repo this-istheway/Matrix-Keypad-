@@ -1,5 +1,5 @@
 # 16Keypad.cpp 
-4x4 Matrix key pad ‘1-9 ,A-D * # ‘ connected to microcontroller FRDM-Kl25Z  and a seven segment Display.
+4x4 Matrix key pad connected to microcontroller FRDM-Kl25Z  and a seven segment Display.
 ## Description 
 4X4 Matrix Key Pad display numeric value on 7 segment display when pushed by user. 
 ### Connection
