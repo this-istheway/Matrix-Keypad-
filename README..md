@@ -13,7 +13,7 @@ The FRDM-Kl25Z   is connected to the 4X4 Matrix Key Pad.
 * |PTE3|	 R-2 (4,5,6,B)
 * |PTE2|	 R -3 (7,8,9,C)
 * |PTB11|	 R-4 (*,0,#,D)
-* --------   COL
+* --------   COLS
 * |PTB10|  C- 1 (1,4,7,*)
 * |PTB9|   C-2 (2,5,8,0)
 * |PTB8|   C—3 (3,6,9,#)
