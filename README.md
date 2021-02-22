@@ -6,3 +6,4 @@
 The FRDM-Kl25Z   is connected to the 4X4 Matrix Key Pad.
 ### Equipment Needed
 4X4 Matrix Keypad - Freedom K125Z Board - Seven Segment Display 
+### Developer Travis Williams
